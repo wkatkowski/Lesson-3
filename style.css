@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.awesome {
+    width: 100%;
+    margin: 107px auto 0;
+    text-align: center;
+}
+
+.description {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878B;
+
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+
+.line {
+    width: 64px;
+    height: 2px;
+    background-color: orange;
+    margin: 30px auto;
+}
+
+.card__image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    margin: 0 auto 30px;
+    background-image: url(images/lamp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card__image_icon {
+    background-image: url(images/key.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    display: inline-block;
+    width: calc(1050px/3);
+    margin-bottom: 101px;
+}
+
+.m-rl-30 {
+    margin: 0 30px;
+}
+
+.awesome__header {
+    margin-bottom: 80px;
+}
+
+.card__title {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.footer {
+    width: 100%;
+}
+
+.box {
+    background-image: url(images/u25_state0@1X.png);
+    background-position: center;
+    background-size: 1401px 330px;
+}
+
+.box__footer {
+    background-color: black;
+    background-size: 1401px 101px;
+}
+
+.title__footer {
+    padding: 76px 0 26px;
+    color: white;
+}
+
+.line__footer {
+    background-color: white;
+    margin: 0 auto 23px;
+}
+
+.descriotion__footer {
+    color: white;
+    margin-bottom: 33px;
+}
+
+.social  {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin-right: 25px;
+    margin-top: 39px;
+    margin-bottom: 15px;
+    background-image: url(images/social\ icons.svg);
+    background-repeat: no-repeat;
+  }
+
+  .vk {
+    background-position: 0 0;
+  }
+
+  .fb {
+    width: 12px;
+    background-position: -30px 0;
+  }
+
+  .gh {
+    width: 18px;
+    background-position: -47px;
+  }
+
+  .tl {
+    background-position: -70px 2px;
+  }
+
+  .inst {
+    background-position: -101px 1px;
+  }
+
+  .tw {
+    background-position: -126px;
+  }
+
+  .rss {
+    background-position: -151px;
+  }
+
+.descriotion__footer__box {
+    padding-bottom: 15px;
+    color: white;
+    font-size: 12px;
+}
+
+.btn {
+    border: 2px solid white;
+    width: 135px;
+    height: 42px;
+    color: white;
+    font-size: 16px;
+    padding: 0;
+    background-color: rgb(255, 255, 255, 0);
+    margin-bottom: 63px;
+}
+
+.btn:hover {
+    background-color: black;
+    font-size: 22px;
+    cursor: pointer;
+}
