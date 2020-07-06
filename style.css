@@ -76,7 +76,8 @@
 .box {
     background-image: url(images/u25_state0@1X.png);
     background-position: center;
-    background-size: 1401px 330px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box__footer {
