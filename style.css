@@ -24,19 +24,19 @@
 .line {
     width: 64px;
     height: 2px;
-    background-color: orange;
     margin: 30px auto;
+    background-color: orange;
 }
 
 .card__image {
     width: 70px;
     height: 70px;
-    border-radius: 50%;
-    border: 2px solid orange;
     margin: 0 auto 30px;
     background-image: url(images/lamp.png);
     background-repeat: no-repeat;
     background-position: center;
+    border: 2px solid orange;
+    border-radius: 50%;
 }
 
 .card__image_icon {
@@ -90,22 +90,20 @@
 }
 
 .line__footer {
-    background-color: white;
     margin: 0 auto 23px;
+    background-color: white;
 }
 
 .descriotion__footer {
-    color: white;
     margin-bottom: 33px;
+    color: white;
 }
 
 .social  {
     display: inline-block;
     width: 23px;
     height: 23px;
-    margin-right: 25px;
-    margin-top: 39px;
-    margin-bottom: 15px;
+    margin: 39px 25px 15px;
     background-image: url(images/social\ icons.svg);
     background-repeat: no-repeat;
   }
@@ -142,23 +140,23 @@
 
 .descriotion__footer__box {
     padding-bottom: 15px;
-    color: white;
     font-size: 12px;
+    color: white;
 }
 
 .btn {
-    border: 2px solid white;
     width: 135px;
     height: 42px;
-    color: white;
-    font-size: 16px;
-    padding: 0;
-    background-color: rgb(255, 255, 255, 0);
     margin-bottom: 63px;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(255, 255, 255, 0);
+    border: 2px solid white;
 }
 
 .btn:hover {
-    background-color: black;
     font-size: 22px;
+    background-color: black;
     cursor: pointer;
 }
